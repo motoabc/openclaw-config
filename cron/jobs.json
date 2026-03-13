@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "2ffa0ac6-1dfb-4499-9361-edabebd899a8",
+      "name": "nightly-security-audit",
+      "description": "每晚安全巡检",
+      "enabled": true,
+      "createdAtMs": 1773164856778,
+      "updatedAtMs": 1773342023700,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Execute this command and output the result as-is, no extra commentary: bash ~/.openclaw/workspace/scripts/nightly-security-audit.sh",
+        "thinking": "off",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_89d790689d0059dfcc29b83ffac2dab2"
+      },
+      "state": {
+        "nextRunAtMs": 1773428400000,
+        "lastRunAtMs": 1773342000042,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 23658,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

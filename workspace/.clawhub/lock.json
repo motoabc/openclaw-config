@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "ddg-web-search": {
+      "version": "1.0.0",
+      "installedAt": 1773253157810
+    },
+    "web-search-pro": {
+      "version": "1.0.1",
+      "installedAt": 1773255131441
+    }
+  }
+}

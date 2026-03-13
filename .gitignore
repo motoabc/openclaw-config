@@ -1,0 +1,12 @@
+devices/*.tmp
+media/
+logs/
+completions/
+canvas/
+*.bak*
+*.tmp
+./**/*.bak
+update-check.json
+node_modules/
+dist/
+browser/
