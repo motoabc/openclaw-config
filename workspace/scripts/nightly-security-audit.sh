@@ -172,7 +172,7 @@ fi
 echo -e "\n[13/13] 大脑灾备 (Git Backup)" >> "$REPORT_FILE"
 BACKUP_STATUS=""
 if [ -d "$OC/.git" ]; then
-  (
+  {
     cd "$OC" || exit 1
     git add . >> "$REPORT_FILE" 2>&1 || true
     if git diff --cached --quiet; then
@@ -185,7 +185,7 @@ if [ -d "$OC/.git" ]; then
         BACKUP_STATUS="fail"
       fi
     fi
-  )
+  }
 else
   BACKUP_STATUS="nogit"
 fi

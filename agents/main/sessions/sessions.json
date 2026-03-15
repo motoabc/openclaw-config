@@ -1,19 +1,18 @@
 {
   "agent:main:main": {
     "sessionId": "97f15662-c874-4c61-b8da-54afebacfc69",
-    "updatedAt": 1773592729115,
+    "updatedAt": 1773595123052,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "deliveryContext": {
-      "channel": "feishu",
-      "to": "user:ou_89d790689d0059dfcc29b83ffac2dab2",
+      "channel": "webchat",
       "accountId": "main"
     },
-    "lastChannel": "feishu",
+    "lastChannel": "webchat",
     "origin": {
-      "provider": "feishu",
-      "surface": "feishu",
+      "provider": "webchat",
+      "surface": "webchat",
       "chatType": "direct",
       "label": "ou_89d790689d0059dfcc29b83ffac2dab2",
       "from": "feishu:ou_89d790689d0059dfcc29b83ffac2dab2",
@@ -147,7 +146,7 @@
     },
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1773592717908,
+      "generatedAt": 1773595044616,
       "sessionId": "97f15662-c874-4c61-b8da-54afebacfc69",
       "sessionKey": "agent:main:main",
       "provider": "custom",
@@ -167,9 +166,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 30076,
+        "chars": 30970,
         "projectContextChars": 13246,
-        "nonProjectContextChars": 16830
+        "nonProjectContextChars": 17724
       },
       "injectedWorkspaceFiles": [
         {
@@ -283,8 +282,8 @@
         ]
       },
       "tools": {
-        "listChars": 3458,
-        "schemaChars": 24103,
+        "listChars": 3918,
+        "schemaChars": 27090,
         "entries": [
           {
             "name": "read",
@@ -329,6 +328,18 @@
             "propertiesCount": 18
           },
           {
+            "name": "nodes",
+            "summaryChars": 122,
+            "schemaChars": 1800,
+            "propertiesCount": 37
+          },
+          {
+            "name": "cron",
+            "summaryChars": 2689,
+            "schemaChars": 690,
+            "propertiesCount": 13
+          },
+          {
             "name": "message",
             "summaryChars": 89,
             "schemaChars": 4860,
@@ -339,6 +350,12 @@
             "summaryChars": 152,
             "schemaChars": 223,
             "propertiesCount": 2
+          },
+          {
+            "name": "gateway",
+            "summaryChars": 464,
+            "schemaChars": 497,
+            "propertiesCount": 12
           },
           {
             "name": "agents_list",
@@ -494,15 +511,14 @@
       }
     },
     "totalTokensFresh": true,
-    "cacheRead": 2560,
+    "cacheRead": 91008,
     "cacheWrite": 0,
     "modelProvider": "custom",
     "model": "gpt-5.4",
     "contextTokens": 128000,
-    "inputTokens": 31221,
-    "outputTokens": 80,
-    "totalTokens": 33781,
-    "lastTo": "user:ou_89d790689d0059dfcc29b83ffac2dab2",
+    "inputTokens": 2026,
+    "outputTokens": 986,
+    "totalTokens": 91516,
     "lastAccountId": "main"
   },
   "agent:main:cron:2ffa0ac6-1dfb-4499-9361-edabebd899a8": {
