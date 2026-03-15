@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.8",
-    "lastTouchedAt": "2026-03-11T18:01:23.353Z"
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-15T16:38:02.221Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-11T18:01:23.346Z",
@@ -170,6 +170,15 @@
         "enabled": false
       },
       "weather": {
+        "enabled": true
+      },
+      "feishu-doc": {
+        "enabled": true
+      },
+      "feishu-drive": {
+        "enabled": true
+      },
+      "feishu-perm": {
         "enabled": true
       }
     }
