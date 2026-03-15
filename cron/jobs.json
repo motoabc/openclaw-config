@@ -2,12 +2,13 @@
   "version": 1,
   "jobs": [
     {
-      "id": "2ffa0ac6-1dfb-4499-9361-edabebd899a8",
+      "id": "0158a2ec-4d34-4294-93f4-a7312a6b484d",
       "name": "nightly-security-audit",
       "description": "每晚安全巡检",
       "enabled": true,
-      "createdAtMs": 1773164856778,
-      "updatedAtMs": 1773592468905,
+      "deleteAfterRun": false,
+      "createdAtMs": 1773593811309,
+      "updatedAtMs": 1773593811309,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -17,24 +18,19 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Execute this command and output the result as-is, no extra commentary: bash ~/.openclaw/workspace/scripts/nightly-security-audit.sh",
+        "message": "Execute this command and output the result as-is, no extra commentary: bash /mnt/openclaw/scripts/nightly-security-audit.sh",
         "thinking": "off",
         "timeoutSeconds": 300
       },
       "delivery": {
         "mode": "announce",
         "channel": "feishu",
-        "to": "ou_89d790689d0059dfcc29b83ffac2dab2"
+        "to": "ou_89d790689d0059dfcc29b83ffac2dab2",
+        "bestEffort": false
       },
       "state": {
         "nextRunAtMs": 1773601200000,
-        "lastRunAtMs": 1773592419458,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 49447,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "Error: Feishu account \"default\" not configured"
+        "runningAtMs": 1773593844048
       }
     }
   ]
