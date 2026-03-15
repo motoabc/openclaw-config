@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "97f15662-c874-4c61-b8da-54afebacfc69",
-    "updatedAt": 1773595123052,
+    "updatedAt": 1773595166343,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -146,7 +146,7 @@
     },
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1773595044616,
+      "generatedAt": 1773595123089,
       "sessionId": "97f15662-c874-4c61-b8da-54afebacfc69",
       "sessionKey": "agent:main:main",
       "provider": "custom",
@@ -511,14 +511,14 @@
       }
     },
     "totalTokensFresh": true,
-    "cacheRead": 91008,
+    "cacheRead": 91776,
     "cacheWrite": 0,
     "modelProvider": "custom",
     "model": "gpt-5.4",
     "contextTokens": 128000,
-    "inputTokens": 2026,
-    "outputTokens": 986,
-    "totalTokens": 91516,
+    "inputTokens": 895,
+    "outputTokens": 434,
+    "totalTokens": 92237,
     "lastAccountId": "main"
   },
   "agent:main:cron:2ffa0ac6-1dfb-4499-9361-edabebd899a8": {
