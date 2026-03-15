@@ -27,14 +27,15 @@
         "to": "ou_89d790689d0059dfcc29b83ffac2dab2"
       },
       "state": {
-        "nextRunAtMs": 1773428400000,
+        "nextRunAtMs": 1773601200000,
         "lastRunAtMs": 1773342000042,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
         "lastDurationMs": 23658,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1773592419428
       }
     }
   ]

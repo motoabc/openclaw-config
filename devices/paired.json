@@ -63,7 +63,7 @@
     ],
     "tokens": {
       "operator": {
-        "token": "EWEW72m7rgDuYvEDjzNE3sXMOt8VMXtwZzX_Fp41vAE",
+        "token": "t-l5tiTu3LM-rKLlm-36FfdRToTFW3SwYHsVZiBzM8I",
         "role": "operator",
         "scopes": [
           "operator.admin",
@@ -71,9 +71,8 @@
           "operator.pairing"
         ],
         "createdAtMs": 1773159941610,
-        "rotatedAtMs": 1773252681419,
-        "lastUsedAtMs": 1773245320186,
-        "revokedAtMs": 1773252684696
+        "rotatedAtMs": 1773591029040,
+        "lastUsedAtMs": 1773245320186
       }
     },
     "createdAtMs": 1773159941610,
