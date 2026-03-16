@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-16T16:06:34.471Z"
+    "lastTouchedAt": "2026-03-16T16:57:50.943Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-16T15:42:41.311Z",
@@ -92,6 +92,22 @@
   "session": {
     "dmScope": "per-channel-peer"
   },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a93296df1bb85bd6",
+      "appSecret": "hnJVx6iAlBYi5SXe9EFlDcR2roGj3HIS",
+      "domain": "feishu",
+      "connectionMode": "websocket",
+      "requireMention": true,
+      "dmPolicy": "allowlist",
+      "groupPolicy": "open",
+      "allowFrom": [
+        "ou_664eb5978d7a2e16127187d1c18827d3"
+      ],
+      "groupAllowFrom": []
+    }
+  },
   "gateway": {
     "port": 18789,
     "mode": "local",
@@ -123,11 +139,15 @@
     }
   },
   "plugins": {
+    "allow": [
+      "openclaw-lark",
+      "feishu"
+    ],
     "entries": {
-      "feishu": {
-        "enabled": false
-      },
       "openclaw-lark": {
+        "enabled": true
+      },
+      "feishu": {
         "enabled": true
       }
     },
@@ -145,25 +165,6 @@
         "resolvedAt": "2026-03-16T16:06:10.082Z",
         "installedAt": "2026-03-16T16:06:30.114Z"
       }
-    },
-    "allow": [
-      "openclaw-lark"
-    ]
-  },
-  "channels": {
-    "feishu": {
-      "enabled": true,
-      "appId": "cli_a93296df1bb85bd6",
-      "appSecret": "hnJVx6iAlBYi5SXe9EFlDcR2roGj3HIS",
-      "domain": "feishu",
-      "connectionMode": "websocket",
-      "requireMention": true,
-      "dmPolicy": "allowlist",
-      "groupPolicy": "open",
-      "allowFrom": [
-        "ou_664eb5978d7a2e16127187d1c18827d3"
-      ],
-      "groupAllowFrom": []
     }
   }
 }

@@ -1,4 +1,38 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
+      "agentId": "main",
+      "sessionKey": "agent:main:feishu:direct:ou_664eb5978d7a2e16127187d1c18827d3",
+      "name": "nightly-security-audit",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1773680201583,
+      "updatedAtMs": 1773680242829,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Execute this command and output the result as-is, no extra commentary: bash /mnt/openclaw/scripts/nightly-security-audit.sh",
+        "thinking": "off",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_664eb5978d7a2e16127187d1c18827d3",
+        "bestEffort": false
+      },
+      "state": {
+        "nextRunAtMs": 1773687600000,
+        "runningAtMs": 1773687600003
+      }
+    }
+  ]
 }
