@@ -7,16 +7,7 @@ chmod 600 /home/node/.openclaw/devices/paired.json
 sha256sum /home/node/.openclaw/openclaw.json > /home/node/.openclaw/.config-baseline.sha256
 # 注：paired.json 被 gateway 运行时频繁写入，不纳入哈希基线（避免误报）
 # 巡检时对比
-sha256sum -c /home/node/.openclaw/.config-baseline.sha256
+sha256sum -c /root/.openclaw/.config-baseline.sha256
 
 
-# 1) 解锁
-docker exec -it -u root --privileged openclaw bash
-chattr -i /home/node/.openclaw/workspace/scripts/nightly-security-audit.sh
-chattr -i /opt/1panel/apps/openclaw/OpenClaw/data/workspace/scripts/nightly-security-audit.sh
-# 2) 修改脚本
-# 3) 测试：手动执行一次确认无报错
-bash /home/node/.openclaw/workspace/scripts/nightly-security-audit.sh
-# 4) 复锁
-chattr +i /home/node/.openclaw/workspace/scripts/nightly-security-audit.sh
-chattr +i /opt/1panel/apps/openclaw/OpenClaw/data/workspace/scripts/nightly-security-audit.sh
+bash /mnt/openclaw/scripts/nightly-security-audit.sh 

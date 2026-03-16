@@ -10,3 +10,4 @@ update-check.json
 node_modules/
 dist/
 browser/
+extensions
