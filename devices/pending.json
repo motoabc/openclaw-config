@@ -1,1 +1,22 @@
-{}
+{
+  "5b9c9dca-a64f-480d-b22d-14a7a8f680e5": {
+    "requestId": "5b9c9dca-a64f-480d-b22d-14a7a8f680e5",
+    "deviceId": "a1679a33d17262b1557534b527258e78bf4f4bc62890e7fc1b7ab3844ad5d560",
+    "publicKey": "pNE6j55JbrLgg3ODAW-hxJ9wwrFBKdFyu0hK9rt_phY",
+    "platform": "iPhone",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "silent": false,
+    "isRepair": false,
+    "ts": 1773772746423
+  }
+}
