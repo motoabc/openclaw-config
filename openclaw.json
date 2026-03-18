@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-17T04:23:42.718Z"
+    "lastTouchedAt": "2026-03-18T15:38:01.720Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-16T15:42:41.311Z",
@@ -51,7 +51,7 @@
         "custom/qwen3-coder-plus": {},
         "custom/kimi-k2.5": {}
       },
-      "workspace": "/root/.openclaw/workspace",
+      "workspace": "/home/zbb/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
       }
@@ -111,7 +111,7 @@
   "gateway": {
     "port": 18789,
     "mode": "local",
-    "bind": "lan",
+    "bind": "loopback",
     "controlUi": {
       "allowedOrigins": [
         "https://claw.ilovein.cn",
@@ -140,14 +140,13 @@
   },
   "plugins": {
     "allow": [
-      "openclaw-lark",
-      "feishu"
+      "openclaw-lark"
     ],
     "entries": {
-      "openclaw-lark": {
-        "enabled": true
-      },
       "feishu": {
+        "enabled": false
+      },
+      "openclaw-lark": {
         "enabled": true
       }
     },
@@ -155,15 +154,15 @@
       "openclaw-lark": {
         "source": "npm",
         "spec": "@larksuite/openclaw-lark",
-        "installPath": "/root/.openclaw/extensions/openclaw-lark",
-        "version": "2026.3.15",
+        "installPath": "/home/zbb/.openclaw/extensions/openclaw-lark",
+        "version": "2026.3.17",
         "resolvedName": "@larksuite/openclaw-lark",
-        "resolvedVersion": "2026.3.15",
-        "resolvedSpec": "@larksuite/openclaw-lark@2026.3.15",
-        "integrity": "sha512-YGk63CgYG+YDUO2+TxdSPJZA6km52OpqAqf26vZHMUqawEKhiT4bcfD5JHh6VGazjUwRk5Bze1UyVKncc0csBA==",
-        "shasum": "997cb8ee9cf66dcd3a24477cb5f59f5fb1a57fff",
-        "resolvedAt": "2026-03-16T16:06:10.082Z",
-        "installedAt": "2026-03-16T16:06:30.114Z"
+        "resolvedVersion": "2026.3.17",
+        "resolvedSpec": "@larksuite/openclaw-lark@2026.3.17",
+        "integrity": "sha512-7GxqBu7jIe0jmApQXt/9hpvorV04Vpqkcr9LvAOMZJzbhmI0+XZKVJgvzw0Ypxz+UfWJ9tlcSw7WpkBcyqvo8g==",
+        "shasum": "407d4616186cf776c21cf49aa533b80c2ef23530",
+        "resolvedAt": "2026-03-18T15:37:45.786Z",
+        "installedAt": "2026-03-18T15:38:00.972Z"
       }
     }
   }

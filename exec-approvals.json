@@ -1,7 +1,7 @@
 {
   "version": 1,
   "socket": {
-    "path": "/root/.openclaw/exec-approvals.sock",
+    "path": "/home/zbb/.openclaw/exec-approvals.sock",
     "token": "Ei1X1OVcfOHgHE8VnZ_A2IwHIz4m9Cbr"
   },
   "defaults": {},
