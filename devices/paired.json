@@ -76,5 +76,75 @@
     },
     "createdAtMs": 1773676434994,
     "approvedAtMs": 1773676434994
+  },
+  "a1679a33d17262b1557534b527258e78bf4f4bc62890e7fc1b7ab3844ad5d560": {
+    "deviceId": "a1679a33d17262b1557534b527258e78bf4f4bc62890e7fc1b7ab3844ad5d560",
+    "publicKey": "pNE6j55JbrLgg3ODAW-hxJ9wwrFBKdFyu0hK9rt_phY",
+    "platform": "iPhone",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "3_T4Ur2BT7jUYvRmYxcYKQ3et7kx_DAviUazOlb2nmc",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1773852379459
+      }
+    },
+    "createdAtMs": 1773852379459,
+    "approvedAtMs": 1773852379459
+  },
+  "829543ba6f842062f8a518ea9f2aa9a9e863b7787c56d707289026259633179f": {
+    "deviceId": "829543ba6f842062f8a518ea9f2aa9a9e863b7787c56d707289026259633179f",
+    "publicKey": "FHXiYBO6h1bn2GDb-JkYOXsAfGpaYLpfdKqa00zM16Y",
+    "platform": "Linux armv81",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "JW7KrMi2IaCykLfmHdjAS8OttzYQtWZU4-ETVihMVZE",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1773852470432
+      }
+    },
+    "createdAtMs": 1773852470432,
+    "approvedAtMs": 1773852470432
   }
 }

@@ -37,7 +37,8 @@
         "lastDurationMs": 64961,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1773860400004
       }
     }
   ]
