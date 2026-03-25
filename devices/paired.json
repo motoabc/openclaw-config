@@ -4,7 +4,7 @@
     "publicKey": "6RzDK429gZm5eu9rEneHacKTatRImuW6NyZuzSABhik",
     "platform": "linux",
     "clientId": "cli",
-    "clientMode": "cli",
+    "clientMode": "probe",
     "role": "operator",
     "roles": [
       "operator"
@@ -54,7 +54,9 @@
     "scopes": [
       "operator.admin",
       "operator.approvals",
-      "operator.pairing"
+      "operator.pairing",
+      "operator.read",
+      "operator.write"
     ],
     "approvedScopes": [
       "operator.admin",
@@ -71,7 +73,7 @@
           "operator.pairing"
         ],
         "createdAtMs": 1773676434994,
-        "lastUsedAtMs": 1774449372401
+        "lastUsedAtMs": 1774451195386
       }
     },
     "createdAtMs": 1773676434994,

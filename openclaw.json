@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-19T01:56:20.654Z"
+    "lastTouchedVersion": "2026.3.23",
+    "lastTouchedAt": "2026-03-25T14:58:09.708Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-16T15:42:41.311Z",
@@ -66,7 +66,44 @@
           ]
         },
         "tools": {
-          "profile": "full"
+          "profile": "full",
+          "alsoAllow": [
+            "feishu_bitable_app",
+            "feishu_bitable_app_table",
+            "feishu_bitable_app_table_field",
+            "feishu_bitable_app_table_record",
+            "feishu_bitable_app_table_view",
+            "feishu_calendar_calendar",
+            "feishu_calendar_event",
+            "feishu_calendar_event_attendee",
+            "feishu_calendar_freebusy",
+            "feishu_chat",
+            "feishu_chat_members",
+            "feishu_create_doc",
+            "feishu_doc_comments",
+            "feishu_doc_media",
+            "feishu_drive_file",
+            "feishu_fetch_doc",
+            "feishu_get_user",
+            "feishu_im_bot_image",
+            "feishu_im_user_fetch_resource",
+            "feishu_im_user_get_messages",
+            "feishu_im_user_get_thread_messages",
+            "feishu_im_user_message",
+            "feishu_im_user_search_messages",
+            "feishu_oauth",
+            "feishu_oauth_batch_auth",
+            "feishu_search_doc_wiki",
+            "feishu_search_user",
+            "feishu_sheet",
+            "feishu_task_comment",
+            "feishu_task_subtask",
+            "feishu_task_task",
+            "feishu_task_tasklist",
+            "feishu_update_doc",
+            "feishu_wiki_space",
+            "feishu_wiki_space_node"
+          ]
         }
       }
     ]
@@ -76,10 +113,7 @@
     "web": {
       "search": {
         "enabled": true,
-        "provider": "gemini",
-        "gemini": {
-          "apiKey": "AIzaSyCw1IPc5ryRyAWmqdmmwxOPu_i4A43voiA"
-        }
+        "provider": "gemini"
       }
     }
   },
@@ -154,6 +188,15 @@
       },
       "feishu-fetch-doc": {
         "enabled": false
+      },
+      "feishu-task": {
+        "enabled": false
+      },
+      "feishu-troubleshoot": {
+        "enabled": true
+      },
+      "feishu-update-doc": {
+        "enabled": false
       }
     }
   },
@@ -165,23 +208,25 @@
       "feishu": {
         "enabled": false
       },
+      "google": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "AIzaSyCw1IPc5ryRyAWmqdmmwxOPu_i4A43voiA"
+          }
+        }
+      },
       "openclaw-lark": {
         "enabled": true
       }
     },
     "installs": {
       "openclaw-lark": {
-        "source": "npm",
-        "spec": "@larksuite/openclaw-lark",
+        "source": "archive",
+        "sourcePath": "/tmp/openclaw-lark-tWTfuO/larksuite-openclaw-lark-2026.3.25.tgz",
         "installPath": "/home/zbb/.openclaw/extensions/openclaw-lark",
-        "version": "2026.3.17",
-        "resolvedName": "@larksuite/openclaw-lark",
-        "resolvedVersion": "2026.3.17",
-        "resolvedSpec": "@larksuite/openclaw-lark@2026.3.17",
-        "integrity": "sha512-7GxqBu7jIe0jmApQXt/9hpvorV04Vpqkcr9LvAOMZJzbhmI0+XZKVJgvzw0Ypxz+UfWJ9tlcSw7WpkBcyqvo8g==",
-        "shasum": "407d4616186cf776c21cf49aa533b80c2ef23530",
-        "resolvedAt": "2026-03-18T15:37:45.786Z",
-        "installedAt": "2026-03-18T15:38:00.972Z"
+        "version": "2026.3.25",
+        "installedAt": "2026-03-25T14:58:05.506Z"
       }
     }
   }
