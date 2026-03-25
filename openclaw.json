@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-18T15:38:01.720Z"
+    "lastTouchedAt": "2026-03-19T01:56:20.654Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-16T15:42:41.311Z",
@@ -136,6 +136,25 @@
         "reminders.add",
         "sms.send"
       ]
+    }
+  },
+  "skills": {
+    "entries": {
+      "xurl": {
+        "enabled": true
+      },
+      "feishu-calendar": {
+        "enabled": false
+      },
+      "feishu-bitable": {
+        "enabled": false
+      },
+      "feishu-create-doc": {
+        "enabled": false
+      },
+      "feishu-fetch-doc": {
+        "enabled": false
+      }
     }
   },
   "plugins": {
