@@ -73,7 +73,7 @@
           "operator.pairing"
         ],
         "createdAtMs": 1773676434994,
-        "lastUsedAtMs": 1774465834459
+        "lastUsedAtMs": 1774539137367
       }
     },
     "createdAtMs": 1773676434994,
@@ -92,7 +92,9 @@
     "scopes": [
       "operator.admin",
       "operator.approvals",
-      "operator.pairing"
+      "operator.pairing",
+      "operator.read",
+      "operator.write"
     ],
     "approvedScopes": [
       "operator.admin",
@@ -108,7 +110,8 @@
           "operator.approvals",
           "operator.pairing"
         ],
-        "createdAtMs": 1773852379459
+        "createdAtMs": 1773852379459,
+        "lastUsedAtMs": 1774486631133
       }
     },
     "createdAtMs": 1773852379459,
@@ -127,7 +130,9 @@
     "scopes": [
       "operator.admin",
       "operator.approvals",
-      "operator.pairing"
+      "operator.pairing",
+      "operator.read",
+      "operator.write"
     ],
     "approvedScopes": [
       "operator.admin",
@@ -144,7 +149,7 @@
           "operator.pairing"
         ],
         "createdAtMs": 1773852470432,
-        "lastUsedAtMs": 1773885640930
+        "lastUsedAtMs": 1774542509163
       }
     },
     "createdAtMs": 1773852470432,
