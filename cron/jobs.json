@@ -9,7 +9,7 @@
       "enabled": true,
       "deleteAfterRun": false,
       "createdAtMs": 1773680201583,
-      "updatedAtMs": 1774465904874,
+      "updatedAtMs": 1774551732679,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -30,15 +30,15 @@
         "bestEffort": false
       },
       "state": {
-        "nextRunAtMs": 1774551600000,
-        "lastRunAtMs": 1774465834361,
+        "nextRunAtMs": 1774638000000,
+        "lastRunAtMs": 1774551600007,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 70513,
+        "lastDurationMs": 132672,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "runningAtMs": 1774551600005
+        "runningAtMs": 1774638000001
       }
     },
     {
@@ -48,7 +48,7 @@
       "name": "Crypto main scan V1",
       "enabled": true,
       "createdAtMs": 1774530055396,
-      "updatedAtMs": 1774544301425,
+      "updatedAtMs": 1774618283456,
       "schedule": {
         "kind": "cron",
         "expr": "30 9,13,18,21 * * *",
@@ -67,11 +67,11 @@
         "to": "oc_3f35394f236997ca78b509c9fb71a383"
       },
       "state": {
-        "nextRunAtMs": 1774575000000,
-        "lastRunAtMs": 1774544249265,
+        "nextRunAtMs": 1774661400000,
+        "lastRunAtMs": 1774618200003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 52160,
+        "lastDurationMs": 83453,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0
@@ -84,7 +84,7 @@
       "name": "Crypto fast risk scan",
       "enabled": true,
       "createdAtMs": 1774543970891,
-      "updatedAtMs": 1774544326015,
+      "updatedAtMs": 1774623643541,
       "schedule": {
         "kind": "cron",
         "expr": "0 12,16,20,23 * * *",
@@ -103,11 +103,11 @@
         "to": "oc_3f35394f236997ca78b509c9fb71a383"
       },
       "state": {
-        "nextRunAtMs": 1774584000000,
-        "lastRunAtMs": 1774544301431,
+        "nextRunAtMs": 1774670400000,
+        "lastRunAtMs": 1774623600003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 24584,
+        "lastDurationMs": 43538,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
@@ -120,7 +120,7 @@
       "name": "Crypto macro event scan",
       "enabled": true,
       "createdAtMs": 1774543970904,
-      "updatedAtMs": 1774544353897,
+      "updatedAtMs": 1774620929860,
       "schedule": {
         "kind": "cron",
         "expr": "15 20,22 * * *",
@@ -139,11 +139,11 @@
         "to": "oc_3f35394f236997ca78b509c9fb71a383"
       },
       "state": {
-        "nextRunAtMs": 1774613700000,
-        "lastRunAtMs": 1774544326021,
+        "nextRunAtMs": 1774700100000,
+        "lastRunAtMs": 1774620900005,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 27876,
+        "lastDurationMs": 29855,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
