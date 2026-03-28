@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.24",
-    "lastTouchedAt": "2026-03-26T01:50:40.238Z"
+    "lastTouchedAt": "2026-03-28T15:54:34.461Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-16T15:42:41.311Z",
@@ -141,6 +141,9 @@
         "ou_664eb5978d7a2e16127187d1c18827d3"
       ],
       "groupAllowFrom": []
+    },
+    "openclaw-weixin": {
+      "accounts": {}
     }
   },
   "gateway": {
@@ -326,7 +329,8 @@
   },
   "plugins": {
     "allow": [
-      "openclaw-lark"
+      "openclaw-lark",
+      "openclaw-weixin"
     ],
     "entries": {
       "feishu": {
@@ -342,6 +346,9 @@
       },
       "openclaw-lark": {
         "enabled": true
+      },
+      "openclaw-weixin": {
+        "enabled": true
       }
     },
     "installs": {
@@ -351,6 +358,19 @@
         "installPath": "/home/zbb/.openclaw/extensions/openclaw-lark",
         "version": "2026.3.25",
         "installedAt": "2026-03-25T18:40:00.986Z"
+      },
+      "openclaw-weixin": {
+        "source": "npm",
+        "spec": "@tencent-weixin/openclaw-weixin",
+        "installPath": "/home/zbb/.openclaw/extensions/openclaw-weixin",
+        "version": "2.1.1",
+        "resolvedName": "@tencent-weixin/openclaw-weixin",
+        "resolvedVersion": "2.1.1",
+        "resolvedSpec": "@tencent-weixin/openclaw-weixin@2.1.1",
+        "integrity": "sha512-lSiTI+9eQQuvZXehuteNps3Ia4/ih5zml6QEgICwA2+9xT1sd5z8C+ldgRfrYd8lZTxYWC8ffkLtG0EVo2E7Ag==",
+        "shasum": "574c53a912986bc6b97ae672c1af0327f8be2fcb",
+        "resolvedAt": "2026-03-28T15:52:39.393Z",
+        "installedAt": "2026-03-28T15:53:16.596Z"
       }
     }
   }
