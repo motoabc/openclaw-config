@@ -9,7 +9,7 @@
       "enabled": true,
       "deleteAfterRun": false,
       "createdAtMs": 1773680201583,
-      "updatedAtMs": 1775329262872,
+      "updatedAtMs": 1775415709985,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -30,15 +30,15 @@
         "bestEffort": false
       },
       "state": {
-        "nextRunAtMs": 1775415600000,
-        "lastRunAtMs": 1775329200002,
+        "nextRunAtMs": 1775502000000,
+        "lastRunAtMs": 1775415600002,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 62870,
+        "lastDurationMs": 109983,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "runningAtMs": 1775415600001
+        "runningAtMs": 1775502000001
       }
     },
     {
@@ -48,7 +48,7 @@
       "name": "Crypto main scan V1",
       "enabled": true,
       "createdAtMs": 1774530055396,
-      "updatedAtMs": 1775395890504,
+      "updatedAtMs": 1775482232088,
       "schedule": {
         "kind": "cron",
         "expr": "30 9,13,18,21 * * *",
@@ -61,11 +61,11 @@
         "text": "[crypto-main-scan] 按 `/home/zbb/.openclaw/workspace/crypto/WORKFLOW.md` 与 `/home/zbb/.openclaw/workspace/crypto/CRON_RULES.md` 执行【主巡检】。负责：市场结论、账户结论、最终操作建议、原因与证据链。巡检 BTC / ETH / DOGE，并结合已接入的 OKX 交易所只读账户信息。优先检查 `okx account balance`、`okx account positions`，必要时看 `okx account asset-balance` 与相关 ticker；同时用 polyclaw、okx-dex-market、okx-dex-signal、okx-dex-token 做市场判断。主巡检不负责高频盯盘，只在以下情况至少一项出现时发送：1) BTC / ETH / DOGE 趋势或结构变化；2) 动作建议变化；3) 资金风格变化；4) 主流关键位突破/失守；5) 仓位变化；6) 浮盈亏明显扩大/收窄。若无明显变化，返回 `NO_REPLY`。输出固定包含：市场结论、账户结论、建议+原因+证据。必须结合用户规则：短线；单笔可接受回撤 10%~15%；10x 为首次特殊试验仓；市场乐观可容忍修复，市场悲观优先止损；默认不在主流偏弱、DOGE 未转强、证据未改善、高杠杆试验仓条件下补仓。必须明确写出“符合用户规则”或“不符合用户规则”。默认中文、简洁、像真实交易简报。"
       },
       "state": {
-        "nextRunAtMs": 1775439000000,
-        "lastRunAtMs": 1775395800002,
+        "nextRunAtMs": 1775525400000,
+        "lastRunAtMs": 1775482200003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 90502,
+        "lastDurationMs": 32085,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       },
@@ -78,7 +78,7 @@
       "name": "Crypto fast risk scan",
       "enabled": true,
       "createdAtMs": 1774543970891,
-      "updatedAtMs": 1775401254104,
+      "updatedAtMs": 1775487622639,
       "schedule": {
         "kind": "cron",
         "expr": "0 12,16,20,23 * * *",
@@ -91,11 +91,11 @@
         "text": "[crypto-fast-risk-scan] 按 `/home/zbb/.openclaw/workspace/crypto/CRON_RULES.md` 执行【高频轻巡检】。只盯真实仓位风险与关键位变化，不做长篇分析。优先检查 `okx account positions`、必要时 `okx account balance`，再看当前持仓相关 ticker（当前重点关注 DOGE-USDT-SWAP，同时参考 BTC/ETH）。只在以下情况至少一项出现时发送：1) 当前持仓浮盈亏明显扩大；2) 当前持仓浮盈亏明显收窄；3) 关键位被有效突破或失守；4) 风险暴露上升；5) 当前建议从“观察”变成“该处理了”。默认不发的情况：小波动、结论没变化、原区间震荡。输出最多 3 句：发生了什么、这对仓位意味着什么、当前动作建议。要明确是否符合用户规则。若无明显变化，返回 `NO_REPLY`。"
       },
       "state": {
-        "nextRunAtMs": 1775448000000,
-        "lastRunAtMs": 1775401200001,
+        "nextRunAtMs": 1775534400000,
+        "lastRunAtMs": 1775487600002,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 54103,
+        "lastDurationMs": 22637,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       },
@@ -108,7 +108,7 @@
       "name": "Crypto macro event scan",
       "enabled": true,
       "createdAtMs": 1774543970904,
-      "updatedAtMs": 1775398529953,
+      "updatedAtMs": 1775484928755,
       "schedule": {
         "kind": "cron",
         "expr": "15 20,22 * * *",
@@ -121,11 +121,11 @@
         "text": "[crypto-macro-event-scan] 按 `/home/zbb/.openclaw/workspace/crypto/CRON_RULES.md` 执行【宏观/事件巡检】。使用 `/home/zbb/.openclaw/workspace/skills/web-search-pro/scripts/search.mjs` 做轻量宏观/事件检查，优先使用权威站点白名单搜索：宏观优先 `bls.gov`、`federalreserve.gov`、`bea.gov`；ETF/监管优先 `farside.co.uk`、`bitbo.io`、`sec.gov`。只关注未来 24h / 72h 的高影响事件：CPI、PPI、非农、失业率、PCE、FOMC、Powell 讲话、BTC ETF / ETH ETF 流入流出、重大监管节点，以及与当前持仓相关的重大事件。只有在以下情况至少一项出现时发送：1) 新增高影响事件；2) 事件进入 24h 窗口；3) ETF 流明显异常；4) 重大监管事件新增；5) 这些事件会改变当前仓位建议。宏观层失败、超时、无结果或证据不足时，不报错，只明确标注“宏观/事件层证据不足”或“宏观/事件层暂不可用”；若没有新增会改变建议的事件，则返回 `NO_REPLY`。输出最多 4 句：事件、时间窗口、为什么和当前仓位有关、当前建议。默认中文、简洁。"
       },
       "state": {
-        "nextRunAtMs": 1775477700000,
-        "lastRunAtMs": 1775398500002,
+        "nextRunAtMs": 1775564100000,
+        "lastRunAtMs": 1775484900003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 29951,
+        "lastDurationMs": 28752,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       },
