@@ -1612,8 +1612,8 @@
     "runtimeMs": 47251
   },
   "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb": {
-    "sessionId": "d0d08b18-ae28-4fff-b521-5a2f13d08d34",
-    "updatedAt": 1775674800124,
+    "sessionId": "27bb236b-9a1f-4577-9c38-e06ed2de49e1",
+    "updatedAt": 1775847600130,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -1877,8 +1877,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775588400790,
-      "sessionId": "9026cf10-4c19-4efc-a6c3-f3d20028d92b",
+      "generatedAt": 1775674800102,
+      "sessionId": "d0d08b18-ae28-4fff-b521-5a2f13d08d34",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -2398,15 +2398,15 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 29455,
-    "outputTokens": 680,
-    "totalTokens": 29263,
+    "inputTokens": 30676,
+    "outputTokens": 2008,
+    "totalTokens": 29981,
     "totalTokensFresh": true,
-    "cacheRead": 57472,
+    "cacheRead": 174592,
     "cacheWrite": 0,
     "estimatedCostUsd": 0,
     "status": "running",
-    "startedAt": 1775674800114,
+    "startedAt": 1775847600119,
     "abortedLastRun": false
   },
   "agent:main:feishu:group:oc_3f35394f236997ca78b509c9fb71a383": {
@@ -4009,9 +4009,9 @@
     "runtimeMs": 86604,
     "label": "微信"
   },
-  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:9026cf10-4c19-4efc-a6c3-f3d20028d92b": {
-    "sessionId": "9026cf10-4c19-4efc-a6c3-f3d20028d92b",
-    "updatedAt": 1775588400003,
+  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:70f05581-5101-42be-b50d-3f6a6423ef7c": {
+    "sessionId": "70f05581-5101-42be-b50d-3f6a6423ef7c",
+    "updatedAt": 1775761245726,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -4275,8 +4275,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775588400790,
-      "sessionId": "9026cf10-4c19-4efc-a6c3-f3d20028d92b",
+      "generatedAt": 1775674800102,
+      "sessionId": "d0d08b18-ae28-4fff-b521-5a2f13d08d34",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -4796,17 +4796,22 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 29455,
-    "outputTokens": 680,
-    "totalTokens": 29263,
+    "inputTokens": 30676,
+    "outputTokens": 2008,
+    "totalTokens": 29981,
     "totalTokensFresh": true,
-    "cacheRead": 57472,
+    "cacheRead": 174592,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0
+    "estimatedCostUsd": 0,
+    "status": "failed",
+    "startedAt": 1775761244043,
+    "abortedLastRun": false,
+    "endedAt": 1775761245712,
+    "runtimeMs": 1669
   },
-  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:d0d08b18-ae28-4fff-b521-5a2f13d08d34": {
-    "sessionId": "d0d08b18-ae28-4fff-b521-5a2f13d08d34",
-    "updatedAt": 1775674800004,
+  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:27bb236b-9a1f-4577-9c38-e06ed2de49e1": {
+    "sessionId": "27bb236b-9a1f-4577-9c38-e06ed2de49e1",
+    "updatedAt": 1775847600004,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -5070,8 +5075,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775588400790,
-      "sessionId": "9026cf10-4c19-4efc-a6c3-f3d20028d92b",
+      "generatedAt": 1775674800102,
+      "sessionId": "d0d08b18-ae28-4fff-b521-5a2f13d08d34",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -5591,12 +5596,17 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 29455,
-    "outputTokens": 680,
-    "totalTokens": 29263,
+    "inputTokens": 30676,
+    "outputTokens": 2008,
+    "totalTokens": 29981,
     "totalTokensFresh": true,
-    "cacheRead": 57472,
+    "cacheRead": 174592,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0
+    "estimatedCostUsd": 0,
+    "status": "failed",
+    "startedAt": 1775761200120,
+    "abortedLastRun": false,
+    "endedAt": 1775761205364,
+    "runtimeMs": 5244
   }
 }
