@@ -1,9 +1,9 @@
 ---
-name: altcoin-evidence-review
+name: bitcon
 description: Evidence-only altcoin review workflow based strictly on the Gate Learn article “山寨币的交易逻辑：基本面分析，技术分析，聪明钱地址”. Use when the user wants a standardized altcoin review, due diligence, or screening flow that must follow the article’s three-part structure: (1) 基本面分析, (2) 技术分析, (3) 聪明钱地址追踪. Use when conclusions must be backed by explicit evidence, with no assumptions, no narrative extrapolation, no missing-data guesswork, and clearly separated evidence gaps.
 ---
 
-# Altcoin Evidence Review
+# Bitcon
 
 Use this skill to review a token with a rigid, evidence-first workflow.
 
