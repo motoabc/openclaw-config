@@ -818,8 +818,8 @@
     "label": "Web"
   },
   "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb": {
-    "sessionId": "353694c2-0140-457a-8bfa-31931eeec8fb",
-    "updatedAt": 1779476400200,
+    "sessionId": "a7a7bfbf-a38e-4ee0-83a9-88354087d540",
+    "updatedAt": 1779822000190,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -1083,8 +1083,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779390000157,
-      "sessionId": "08c8e377-0c42-4612-8df7-bf99abb72fc1",
+      "generatedAt": 1779476400156,
+      "sessionId": "353694c2-0140-457a-8bfa-31931eeec8fb",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -1604,15 +1604,15 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 2293,
-    "outputTokens": 1274,
-    "totalTokens": 29774,
+    "inputTokens": 58277,
+    "outputTokens": 592,
+    "totalTokens": 29276,
     "totalTokensFresh": true,
-    "cacheRead": 173056,
+    "cacheRead": 28672,
     "cacheWrite": 0,
     "estimatedCostUsd": 0,
     "status": "running",
-    "startedAt": 1779476400183,
+    "startedAt": 1779822000176,
     "abortedLastRun": false
   },
   "agent:main:feishu:group:oc_3f35394f236997ca78b509c9fb71a383": {
@@ -3967,9 +3967,9 @@
     "endedAt": 1777553865592,
     "runtimeMs": 27767
   },
-  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:08c8e377-0c42-4612-8df7-bf99abb72fc1": {
-    "sessionId": "08c8e377-0c42-4612-8df7-bf99abb72fc1",
-    "updatedAt": 1779390000007,
+  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:68e37e6a-2ccd-4824-b68a-cfde8b0e8efe": {
+    "sessionId": "68e37e6a-2ccd-4824-b68a-cfde8b0e8efe",
+    "updatedAt": 1779735647754,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -4233,8 +4233,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779390000157,
-      "sessionId": "08c8e377-0c42-4612-8df7-bf99abb72fc1",
+      "generatedAt": 1779476400156,
+      "sessionId": "353694c2-0140-457a-8bfa-31931eeec8fb",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -4754,22 +4754,22 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 2293,
-    "outputTokens": 1274,
-    "totalTokens": 29774,
+    "inputTokens": 58277,
+    "outputTokens": 592,
+    "totalTokens": 29276,
     "totalTokensFresh": true,
-    "cacheRead": 173056,
+    "cacheRead": 28672,
     "cacheWrite": 0,
     "estimatedCostUsd": 0,
     "status": "failed",
-    "startedAt": 1775761200120,
+    "startedAt": 1779735645930,
     "abortedLastRun": false,
-    "endedAt": 1775761205364,
-    "runtimeMs": 5244
+    "endedAt": 1779735647738,
+    "runtimeMs": 1808
   },
-  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:353694c2-0140-457a-8bfa-31931eeec8fb": {
-    "sessionId": "353694c2-0140-457a-8bfa-31931eeec8fb",
-    "updatedAt": 1779476400006,
+  "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb:run:a7a7bfbf-a38e-4ee0-83a9-88354087d540": {
+    "sessionId": "a7a7bfbf-a38e-4ee0-83a9-88354087d540",
+    "updatedAt": 1779822000006,
     "systemSent": true,
     "label": "Cron: nightly-security-audit",
     "skillsSnapshot": {
@@ -5033,8 +5033,8 @@
     "model": "gpt-5.4",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779390000157,
-      "sessionId": "08c8e377-0c42-4612-8df7-bf99abb72fc1",
+      "generatedAt": 1779476400156,
+      "sessionId": "353694c2-0140-457a-8bfa-31931eeec8fb",
       "sessionKey": "agent:main:cron:fe4e985f-3f32-4015-89d7-3114e3b3a6bb",
       "provider": "custom",
       "model": "gpt-5.4",
@@ -5554,17 +5554,17 @@
       }
     },
     "contextTokens": 200000,
-    "inputTokens": 2293,
-    "outputTokens": 1274,
-    "totalTokens": 29774,
+    "inputTokens": 58277,
+    "outputTokens": 592,
+    "totalTokens": 29276,
     "totalTokensFresh": true,
-    "cacheRead": 173056,
+    "cacheRead": 28672,
     "cacheWrite": 0,
     "estimatedCostUsd": 0,
     "status": "failed",
-    "startedAt": 1775761200120,
+    "startedAt": 1779735600167,
     "abortedLastRun": false,
-    "endedAt": 1775761205364,
-    "runtimeMs": 5244
+    "endedAt": 1779735606584,
+    "runtimeMs": 6417
   }
 }
